@@ -8,6 +8,7 @@ import { StateComponent } from './components/StatePropCompo';
 import PropValidation from './components/PropValidComponent';
 import { ConstructorDemo } from './components/ConstructorDemo';
 import FUpdate from './components/ForceUpdateComponent';
+import DOMUpdate from './components/DOMManipulation';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
         {/* <StateComponent /> */}
         {/* <PropValidation/> */}
         {/* <ConstructorDemo/> */}
-        <FUpdate/>
+        {/* <FUpdate/> */}
+        <DOMUpdate/>
       </header>
     </div>
   );
