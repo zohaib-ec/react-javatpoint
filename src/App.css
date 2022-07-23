@@ -50,3 +50,10 @@
   font-weight: 900;
   text-align: center;
 }
+
+button {
+  background-color: beige;
+  padding: 15px 50px 15px 50px;
+  font-size: larger;
+  border-radius: 20px;
+}

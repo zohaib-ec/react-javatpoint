@@ -6,6 +6,8 @@ import Student from './components/StudentComponent';
 import Stateful from './components/StatefulComponent';
 import { StateComponent } from './components/StatePropCompo';
 import PropValidation from './components/PropValidComponent';
+import { ConstructorDemo } from './components/ConstructorDemo';
+import FUpdate from './components/ForceUpdateComponent';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
         {/* <Student/> */}
         {/* <Stateful/> */}
         {/* <StateComponent /> */}
-        <PropValidation/>
+        {/* <PropValidation/> */}
+        {/* <ConstructorDemo/> */}
+        <FUpdate/>
       </header>
     </div>
   );
