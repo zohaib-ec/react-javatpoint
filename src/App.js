@@ -9,6 +9,7 @@ import PropValidation from './components/PropValidComponent';
 import { ConstructorDemo } from './components/ConstructorDemo';
 import FUpdate from './components/ForceUpdateComponent';
 import DOMUpdate from './components/DOMManipulation';
+import LifeCycleDemo from './components/LifeCycleDemo';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         {/* <PropValidation/> */}
         {/* <ConstructorDemo/> */}
         {/* <FUpdate/> */}
-        <DOMUpdate/>
+        {/* <DOMUpdate/> */}
+        <LifeCycleDemo/>
       </header>
     </div>
   );
