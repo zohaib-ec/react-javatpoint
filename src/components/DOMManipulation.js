@@ -10,12 +10,12 @@ class DOMUpdate extends Component {
 
     findDomNodeHandler1() {
         var myDiv = document.getElementById("DivOne");
-        ReactDOM.findDOMNode('DivOne').style.color = 'red';
+        ReactDOM.findDOMNode(myDiv).style.color = 'red';
     }
 
     findDomNodeHandler2() {
-        var myDiv = document.getElementById('DivTwo');
-        ReactDOM.findDOMNode('DivTwo').style.color = 'blue';
+        var myDiv = document.getElementById("DivTwo");
+        ReactDOM.findDOMNode(myDiv).style.color = 'blue';
     }
 
     render() {
