@@ -10,6 +10,7 @@ import { ConstructorDemo } from './components/ConstructorDemo';
 import FUpdate from './components/ForceUpdateComponent';
 import DOMUpdate from './components/DOMManipulation';
 import LifeCycleDemo from './components/LifeCycleDemo';
+import UncontrolledForm from './components/UncontrolledForm';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
         {/* <ConstructorDemo/> */}
         {/* <FUpdate/> */}
         {/* <DOMUpdate/> */}
-        <LifeCycleDemo/>
+        {/* <LifeCycleDemo/> */}
+        <UncontrolledForm/>
       </header>
     </div>
   );
